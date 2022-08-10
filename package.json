@@ -1,0 +1,26 @@
+{
+  "name": "whois-node",
+  "version": "1.0.1",
+  "description": "A Node.js module to preform whois lookups",
+  "main": "index.js",
+  "repository": "https://github.com/milanmdev/whois.git",
+  "author": "Milan Mehra <milan@milanm.org>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node test.js",
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
+  },
+  "dependencies": {
+    "change-case": "^4.1.2",
+    "whois": "^2.13.9"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "husky": "^8.0.1",
+    "pinst": "^3.0.0"
+  }
+}
