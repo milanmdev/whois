@@ -1,11 +1,15 @@
 {
   "name": "whois-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Node.js module to preform whois lookups",
   "main": "index.js",
   "repository": "https://github.com/milanmdev/whois.git",
   "author": "Milan Mehra <milan@milanm.org>",
   "license": "MIT",
+  "keywords": [
+    "whois",
+    "json"
+  ],
   "private": false,
   "scripts": {
     "lint": "eslint .",
