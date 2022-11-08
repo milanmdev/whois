@@ -1,6 +1,6 @@
 {
   "name": "whois-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Node.js module to preform whois lookups",
   "main": "index.js",
   "repository": "https://github.com/milanmdev/whois.git",
