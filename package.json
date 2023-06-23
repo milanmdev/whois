@@ -1,7 +1,7 @@
 {
   "name": "whois-node",
-  "version": "1.0.4",
-  "description": "A Node.js module to preform whois lookups",
+  "version": "1.0.5",
+  "description": "A Node.js module to perform whois lookups",
   "main": "index.js",
   "repository": "https://github.com/milanmdev/whois.git",
   "author": "Milan Mehra <milan@milanm.org>",
@@ -23,8 +23,8 @@
     "whois": "^2.13.9"
   },
   "devDependencies": {
-    "eslint": "8.27.0",
-    "husky": "8.0.2",
+    "eslint": "8.43.0",
+    "husky": "8.0.3",
     "pinst": "3.0.0"
   }
 }
